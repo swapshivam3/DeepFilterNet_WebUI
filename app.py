@@ -19,4 +19,4 @@ gr.Interface(
     title="DeepFilterNet Web UI",
     description="A simple web UI built in Gradio for audio denoising with DeepFilterNet.",
     live='true'
-).launch(inbrowser='true', share='true')
+).launch(inbrowser='true', share='true', show_error='true')
